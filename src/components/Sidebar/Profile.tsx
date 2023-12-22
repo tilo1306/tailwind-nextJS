@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import { LogOut } from 'lucide-react'
 
 export function Profile() {
   return (
-    <div className="grid-cols-profile flex items-center gap-3">
+    <div className="flex grid-cols-profile items-center gap-3">
       <img
         className="h-10 w-10 rounded-full"
         src="https://github.com/tilo1306.png"

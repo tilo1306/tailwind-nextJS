@@ -1,7 +1,11 @@
+import { SettingsTabs } from '@/components/SettingsTabs'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8">
-      <h1>oi</h1>
-    </main>
+    <>
+      <h1 className="to-zinc-900 text-3xl font-medium">Settings</h1>
+
+      <SettingsTabs />
+    </>
   )
 }
