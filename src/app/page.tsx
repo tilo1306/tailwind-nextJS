@@ -1,8 +1,8 @@
 import { SettingsTabs } from '@/components/SettingsTabs'
 import * as Input from '@/components/Input'
 import * as FileInput from '@/components/Form/FileInput'
-
 import { Mail } from 'lucide-react'
+import { Select } from '@/components/Form/Select'
 
 export default function Home() {
   return (
@@ -57,7 +57,6 @@ export default function Home() {
               </Input.Root>
             </div>
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label
               htmlFor="email"
@@ -76,7 +75,6 @@ export default function Home() {
               />
             </Input.Root>
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label
               htmlFor="photo"
@@ -95,7 +93,6 @@ export default function Home() {
               </FileInput.Root>
             </div>
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label htmlFor="role" className="text-sm font-medium text-zinc-700">
               Role
@@ -104,7 +101,6 @@ export default function Home() {
               <Input.Control id="role" defaultValue="CTO" />
             </Input.Root>
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label
               htmlFor="country"
@@ -112,9 +108,9 @@ export default function Home() {
             >
               Country
             </label>
+            <Select />
             <div />
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label
               htmlFor="timezone"
@@ -124,7 +120,6 @@ export default function Home() {
             </label>
             <div />
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
               Bio
@@ -134,7 +129,6 @@ export default function Home() {
             </label>
             <div />
           </div>
-
           <div className="grid grid-cols-form gap-3 pt-5">
             <label
               htmlFor="projects"
@@ -151,7 +145,6 @@ export default function Home() {
               <FileInput.Control multiple />
             </FileInput.Root>
           </div>
-
           <div className="flex items-center justify-end gap-2 pt-5">
             <button
               type="button"
