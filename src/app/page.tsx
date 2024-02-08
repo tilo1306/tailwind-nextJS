@@ -4,7 +4,7 @@ import * as FileInput from '@/components/Form/FileInput'
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import { Select } from '@/components/Form/Select'
 import { SelectItem } from '@/components/Form/Select/SelectItem'
-import { TextArea } from '@/components/Form/TextArea'
+import { Textarea } from '@/components/Form/TextArea'
 
 export default function Home() {
   return (
@@ -189,7 +189,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <TextArea
+              <Textarea
                 id="bio"
                 defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
               />
